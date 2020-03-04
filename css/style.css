@@ -1,7 +1,196 @@
 /* style.css */
 
+.pageMain {
+    background-color: lightgrey;
+    padding: 30px;
+}
+
+.header {
+    background-color: grey;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.15rem;
+    border: 5px solid rgb(185, 124, 185);
+}
+
+.text {
+    padding: 20px;
+}
+
+.menutitle {
+    padding-bottom: 20px;
+}
+.option {
+    font-size: 1.25rem;
+    line-height: 2;
+}
+
+.choice {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 2;
+}
+
+img {
+    border-radius: 8px;
+    max-width: 150px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
     margin: 0;
     padding: 0;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* .form {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 3px solid grey;
+    padding: 30px;
+} */
+
+.menuTitleOption,.backgroundOption, .fontOption, .pictureOption, .borderOption, .requests, .submit {
+    padding: 30px;
+    box-shadow: 5px 5px grey;
+}
+
+
+.formTitle {
+    color: rgb(185, 124, 185);
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding: 20px;
+}
+
+.formDirection {
+    line-height: 1.5;
+}
+
+.list {
+    padding-left: 60px;
+}
+
+.formNote {}
+/*  page 2 specific coding*/
+
+
+.greeting {
+    padding: 40px;
+    color: rgb(185, 124, 185);
+    font-weight: 900;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+    padding: 20px;
+}
+
+
+
+.onMenu {
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+    font-size: large;
+    line-height: 2;
+}
+
+/* background color classes */
+.darkblue {
+    background-color: #00008b;
+}
+
+.darkgrey {
+    background-color: darkgrey;
+}
+
+.steelblue {
+    background-color: steelblue;
+}
+
+.mintgreen {
+    background-color: #cfffe5;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.tan {
+    background-color: tan;
+}
+
+.black {
+    background-color: black;
+}
+
+
+/* font color classes */
+.coal {
+    color: black;
+}
+
+.silver {
+    color: silver;
+}
+
+.purple {
+    color: purple;
+}
+
+.blue {
+    color: blue;
+}
+
+.orange {
+    color: orange;
+}
+
+
+/* border style classes */
+.none {
+    border: none;
+}
+.solid {
+    border: solid 10px black;
+}
+.double {
+    border:  double 10px;
+}
+
+/* image directions */
+img {
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    background-color: rgb(185, 124, 185);
+    text-align: center;
+    font-weight: bold;
+    color: white;
 }
